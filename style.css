@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top-nav-bar {
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#logo {
+  height: 120px;
+  width: 240px;
+}
+
+.login {
+  display: flex;
+}
+
+.user-login,
+.user-pin {
+  border: none;
+  text-align: center;
+  width: 10rem;
+  border-radius: 10rem;
+  background-color: rgba(255, 239, 213, 0.817);
+  padding: 0.5rem 1rem;
+}
+
+.login-btn {
+  background: none;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-size: 2rem;
+  background-color: rgba(146, 146, 224, 0.359);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+}
+
+#main-image img {
+  margin: 20px;
+  opacity: 0.7;
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+.deposit-money,
+.withdraw-money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 10rem;
+  width: 20rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+}
+
+.deposit-money {
+  background-color: rgba(250, 233, 207, 0.817);
+
+  border: 2px solid black;
+}
+
+.deposit-input,
+.withdraw-input {
+  border: none;
+  width: auto;
+}
+
+.deposit-input {
+  margin-bottom: 20px;
+}
+
+.deposit-button,
+.withdraw-button {
+  width: 40px;
+}
